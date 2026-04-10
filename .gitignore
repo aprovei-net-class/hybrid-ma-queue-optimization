@@ -1,0 +1,35 @@
+# Paper and manuscript files
+*.md
+!README.md
+*.bib
+*.tex
+*.bst
+*.pdf
+*.zip
+
+# LaTeX directories
+latex/
+latex-pt/
+latex-submission/
+latex-submission-pt/
+
+# Analysis and planning
+analysis-output/
+plan/
+directives/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Claude
+.claude/
+
+# Temp
+/temp/
