@@ -27,17 +27,17 @@ logger = logging.getLogger(__name__)
 @dataclass
 class MAConfig:
     """Configuration for the Memetic Algorithm."""
-    pop_size: int = 100
-    n_generations: int = 300
+    pop_size: int = 20
+    n_generations: int = 30
     crossover_rate: float = 0.9
-    mutation_rate: float = 0.1
+    mutation_rate: float = 0.15
     local_search_prob: float = 0.3
     elitism_rate: float = 0.05
     aos_window: int = 20
     aos_min_prob: float = 0.1
     d_max: float = float("inf")
     seed: int = 42
-    convergence_patience: int = 20
+    convergence_patience: int = 10
     convergence_threshold: float = 0.001  # 0.1% improvement
 
 

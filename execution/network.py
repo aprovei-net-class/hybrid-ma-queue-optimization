@@ -38,38 +38,6 @@ class TechnicalConstraints:
     max_total_loss_pct: float = 15.0  # % of total load (relaxed for radial feeders)
 
 
-def load_ieee_network(bus_count: int) -> pp.pandapowerNet:
-    """Load an IEEE test feeder.
-
-    Args:
-        bus_count: Number of buses (13, 34, or 123).
-
-    Returns:
-        pandapower network object.
-
-    Raises:
-        ValueError: If bus_count is not supported.
-    """
-    loaders = {
-        13: pn.case_ieee_european_lv_asymmetric,
-        34: pn.case34_3ph,
-        123: pn.case_ieee123,
-    }
-
-    if bus_count not in loaders:
-        raise ValueError(
-            f"Unsupported bus count: {bus_count}. Use 13, 34, or 123."
-        )
-
-    net = loaders[bus_count]()
-    logger.info(
-        f"Loaded IEEE {bus_count}-bus: "
-        f"{len(net.bus)} buses, {len(net.line)} lines, "
-        f"{len(net.load)} loads"
-    )
-    return net
-
-
 def load_generic_radial(n_buses: int = 34) -> pp.pandapowerNet:
     """Create a generic radial distribution network for testing.
 
