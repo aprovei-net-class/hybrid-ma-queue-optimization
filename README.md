@@ -2,7 +2,7 @@
 
 Source code for the paper:
 
-> **Path-Dependent Hosting Capacity and Sequential Queue Optimization for Distributed Generation Grid Access**
+> **Connection Order Matters: Path-Dependent Hosting Capacity in Distributed Generation Interconnection Queues**
 >
 > Williams F. Fontinele, Pablo T. Caballero, Eduardo C. M. da Costa
 

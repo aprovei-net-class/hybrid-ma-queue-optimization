@@ -3,8 +3,8 @@
 run_ablations.py — Additional ablation runs (static HC, fixed operator, D_max variants).
 
 Part of: Hybrid Memetic Algorithm for DG Queue Optimization
-Paper: "Path-Dependent Hosting Capacity and Sequential Queue Optimization
-        for Distributed Generation Grid Access"
+Paper: "Connection Order Matters: Path-Dependent Hosting Capacity in
+        Distributed Generation Interconnection Queues"
 Authors: Williams F. Fontinele, Pablo T. Caballero, Eduardo C. M. da Costa
 License: MIT
 """

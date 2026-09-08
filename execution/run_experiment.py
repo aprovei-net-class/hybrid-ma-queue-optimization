@@ -3,8 +3,8 @@
 run_experiment.py — Main experiment runner for the IEEE 33-bus network.
 
 Part of: Hybrid Memetic Algorithm for DG Queue Optimization
-Paper: "Path-Dependent Hosting Capacity and Sequential Queue Optimization
-        for Distributed Generation Grid Access"
+Paper: "Connection Order Matters: Path-Dependent Hosting Capacity in
+        Distributed Generation Interconnection Queues"
 Authors: Williams F. Fontinele, Pablo T. Caballero, Eduardo C. M. da Costa
 License: MIT
 """

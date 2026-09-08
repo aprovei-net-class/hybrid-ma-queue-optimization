@@ -3,8 +3,8 @@
 network.py — IEEE 33-bus and 69-bus network models with power flow utilities.
 
 Part of: Hybrid Memetic Algorithm for DG Queue Optimization
-Paper: "Path-Dependent Hosting Capacity and Sequential Queue Optimization
-        for Distributed Generation Grid Access"
+Paper: "Connection Order Matters: Path-Dependent Hosting Capacity in
+        Distributed Generation Interconnection Queues"
 Authors: Williams F. Fontinele, Pablo T. Caballero, Eduardo C. M. da Costa
 License: MIT
 """
@@ -269,7 +269,10 @@ def check_constraints(
 def get_valid_buses(net: pp.pandapowerNet) -> list[int]:
     """Get list of buses where DG can be connected.
 
-    Excludes slack bus and buses without load.
+    Excludes only the slack (ext_grid / slack-generator) buses. Buses without
+    load ARE eligible --- on the 69-bus network DG projects may therefore be
+    assigned to unloaded buses (see the queue-generation appendix of the
+    manuscript).
 
     Args:
         net: pandapower network.

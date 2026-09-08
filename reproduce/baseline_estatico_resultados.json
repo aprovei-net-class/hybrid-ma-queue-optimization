@@ -1,0 +1,78 @@
+{
+  "33bus_I3_s42": {
+    "static_rank_fitness": 7589.582543385226,
+    "static_rank_n_connected": 46,
+    "fifo_fitness": 5764.109855058779,
+    "gain_vs_fifo_pct": 31.66963736342307
+  },
+  "33bus_I3_s7": {
+    "static_rank_fitness": 8422.410969142928,
+    "static_rank_n_connected": 47,
+    "fifo_fitness": 7602.245555840196,
+    "gain_vs_fifo_pct": 10.78846253095132
+  },
+  "33bus_I3_s13": {
+    "static_rank_fitness": 7213.445962539731,
+    "static_rank_n_connected": 38,
+    "fifo_fitness": 7372.851958916728,
+    "gain_vs_fifo_pct": -2.162066962218213
+  },
+  "33bus_I4_s42": {
+    "static_rank_fitness": 10806.016392829011,
+    "static_rank_n_connected": 33,
+    "fifo_fitness": 6433.244746746743,
+    "gain_vs_fifo_pct": 67.97147968439342
+  },
+  "33bus_I4_s7": {
+    "static_rank_fitness": 11637.605894420887,
+    "static_rank_n_connected": 31,
+    "fifo_fitness": 8583.577219536915,
+    "gain_vs_fifo_pct": 35.57990563576169
+  },
+  "33bus_I4_s13": {
+    "static_rank_fitness": 9223.295173642467,
+    "static_rank_n_connected": 26,
+    "fifo_fitness": 7713.015650105333,
+    "gain_vs_fifo_pct": 19.580921290059987
+  },
+  "69bus_I3_s42": {
+    "static_rank_fitness": 8632.88352345002,
+    "static_rank_n_connected": 50,
+    "fifo_fitness": 8632.883523450022,
+    "gain_vs_fifo_pct": -2.107047313455378e-14
+  },
+  "69bus_I3_s7": {
+    "static_rank_fitness": 8940.879228302609,
+    "static_rank_n_connected": 50,
+    "fifo_fitness": 8940.879228302609,
+    "gain_vs_fifo_pct": 0.0
+  },
+  "69bus_I3_s13": {
+    "static_rank_fitness": 8959.0370252703,
+    "static_rank_n_connected": 48,
+    "fifo_fitness": 9117.710384370308,
+    "gain_vs_fifo_pct": -1.7402763677601365
+  },
+  "69bus_I4_s42": {
+    "static_rank_fitness": 15414.044107507798,
+    "static_rank_n_connected": 46,
+    "fifo_fitness": 15460.37977398603,
+    "gain_vs_fifo_pct": -0.29970587498889745
+  },
+  "69bus_I4_s7": {
+    "static_rank_fitness": 15191.904879391497,
+    "static_rank_n_connected": 42,
+    "fifo_fitness": 13225.88944589851,
+    "gain_vs_fifo_pct": 14.864901461146488
+  },
+  "69bus_I4_s13": {
+    "static_rank_fitness": 13789.687688100708,
+    "static_rank_n_connected": 39,
+    "fifo_fitness": 12728.144256267135,
+    "gain_vs_fifo_pct": 8.340127283762413
+  },
+  "_meta": {
+    "criterios": "P_kw (beneficio), dVmax rede base (custo), posicao cronologica (custo); TOPSIS pesos iguais",
+    "tempo_total_s": 57.0
+  }
+}

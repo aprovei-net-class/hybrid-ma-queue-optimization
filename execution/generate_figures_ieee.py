@@ -3,8 +3,8 @@
 generate_figures_ieee.py — IEEE-format figure generation for main experiment results.
 
 Part of: Hybrid Memetic Algorithm for DG Queue Optimization
-Paper: "Path-Dependent Hosting Capacity and Sequential Queue Optimization
-        for Distributed Generation Grid Access"
+Paper: "Connection Order Matters: Path-Dependent Hosting Capacity in
+        Distributed Generation Interconnection Queues"
 Authors: Williams F. Fontinele, Pablo T. Caballero, Eduardo C. M. da Costa
 License: MIT
 """
